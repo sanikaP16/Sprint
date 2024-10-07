@@ -1,0 +1,11 @@
+3 start
+number:12 result:0  copy_no:0 divisor:2 zero:0 one:1
+start:7 number copy_no
+divide:2 copy_no divisor copy_no
+4 copy_no zero r
+5 copy_no divisor end
+
+3 divide
+r:7 one result 
+3 end
+end:9
