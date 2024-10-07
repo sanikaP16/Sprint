@@ -1,0 +1,22 @@
+3 5
+first_location:50
+n_term:5
+7 first_location location
+CHECK:5 term n_term NEXT
+3 end
+NEXT:7 previous_term location:0
+1 previous_term current_term next_term
+7 current_term previous_term
+7 next_term current_term
+1 location one location
+1 term one term
+3 CHECK
+ 
+term:0
+location1:0
+previous_term:0
+current_term:1
+next_term:0
+one:1
+
+end:9
