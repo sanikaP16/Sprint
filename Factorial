@@ -1,0 +1,21 @@
+3 start
+number:1
+result:1
+start:7 number copy_no
+check:5 one copy_no  co
+9
+co:7 zero counter
+7 result adder
+7 zero result
+counter_check:4 counter copy_no go
+1 result adder result
+1 counter one counter
+3 counter_check
+go:2 copy_no one copy_no 
+3 check
+
+copy_no:0
+one:1
+counter:0
+adder:0
+zero:0
