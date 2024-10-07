@@ -1,0 +1,31 @@
+3 7
+seq_location:62
+seq_length:4
+cycle_location:100
+cycle_length:8
+
+4 zero seq_length HALT
+SET:7 cycle_location c_location
+
+AGAIN:7 seq_location s_location
+7 zero s_counter
+CHECK1:5 s_counter seq_length 
+CHECK2
+3 AGAIN
+
+CHECK2:5 c_counter cycle_length START
+3 HALT
+START:7 s_location:0 c_location:0
+1 c_location one c_location
+1 s_location one s_location
+1 s_counter one s_counter
+1 c_counter one c_counter
+3 CHECK1
+
+s_counter:0
+c_counter:0
+zero:0
+one:1
+HALT:9
+0 0 0 0 0
+3 5 6 4
