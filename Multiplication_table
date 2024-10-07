@@ -1,0 +1,18 @@
+3 6
+first_location:50
+number:20
+end:10
+7 number copy_number
+7 first_location location
+START:5 counter end NEXT
+3 HALT
+NEXT:7 copy_number location:0
+1 copy_number number copy_number
+1 location one location 
+1 counter one counter
+3 START
+
+copy_number:0
+one:1
+counter:0
+HALT:9
