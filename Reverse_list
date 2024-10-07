@@ -1,0 +1,41 @@
+3 5 
+first_element:90
+length:5
+4 length zero end
+7 length copy_length
+check1:5 copy_length two SWAP
+2 copy_length two copy_length
+1 counter one counter
+3 check1
+
+SWAP:7 first_element first1
+7 first_element first2
+1 first_element length last_ele
+2 last_ele one last1
+2 last_ele one last2
+
+SWAP1:7 first1:0 temp 
+7 last1:0 first2:0
+7 temp last2:0
+
+1 first1 one first1
+1 first2 one first2
+2 last1 one last1
+2 last2 one last2
+1 swap one swap
+5 swap counter SWAP1
+3 end 
+
+no1:0
+no2:0
+copy_length:0
+last_ele:0
+one:1
+counter:0
+two:2
+zero:0
+swap:0
+temp:0
+end:9
+
+1 40 49 44 4 
