@@ -1,0 +1,28 @@
+3 5
+number:100
+sum:0
+7 number copy_number
+START:5 copy_number zero end
+7 zero division
+7 copy_number rem
+CHECK:5 rem ten ADD
+2 rem ten rem
+3 CHECK
+
+ADD:1 sum rem sum
+NUM_CHECK:2 copy_number ten copy_number
+1 division one division
+5 copy_number zero end
+5 copy_number ten AGAIN
+3 NUM_CHECK
+
+AGAIN:7 division copy_number
+3 START
+end:9
+copy_number:0
+rem:0
+division:0
+ten:10
+zero:0
+one:1
+
