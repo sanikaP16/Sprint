@@ -1,0 +1,40 @@
+3 start
+number:313
+rev:0
+result:0
+start:7 number copy_number
+num:5 copy_number zero PALINDROME
+7 zero division
+7 copy_number rem
+check1:5 rem ten check2
+2 rem ten rem
+3 check1
+check2:4 rev zero add
+7 one counter
+reverse:1 rev rem_copy rev
+1 counter one counter
+5 counter ten reverse
+next:1 rev rem rev
+7 rev rem_copy
+3 no_check
+add:7 rem rev
+7 rem rem_copy
+no_check:2 copy_number ten copy_number
+1 division one division
+5 copy_number zero PALINDROME
+5 copy_number ten REPEAT
+3 no_check
+REPEAT:7 division copy_number
+3 num
+PALINDROME:4 rev number PUT
+3 end
+PUT:7 one result
+end:9
+copy_number:0
+rem:0
+division:0
+ten:10
+counter:1
+zero:0
+one:1
+rem_copy:0
