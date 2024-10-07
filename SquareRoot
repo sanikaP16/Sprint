@@ -1,0 +1,19 @@
+3 start
+number:16
+result:0
+start:1 square to_check square
+1 counter one counter 
+4 counter to_check check
+3 start
+check:5 number square go
+1 to_check one to_check
+7 zero counter
+7 zero square
+3 start
+go:2 to_check one result
+9
+square:0
+to_check:1
+counter:0
+one:1
+zero:0
